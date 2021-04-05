@@ -1,5 +1,8 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  color: #323232;
+  background-color:
 }
 
 *, *::before, *::after {
@@ -60,4 +63,19 @@ nav a {
 
 nav a:hover {
   background-color: #960062;
+}
+
+main {
+  padding: 0 1rem;
+}
+
+main p {
+  margin: 0 0 1.5rem;
+  font-size: 1.125rem;
+}
+
+section {
+  padding: 1.5rem 0;
+  border-bottom: 2px solid #afafaf;
+  border-top: 2px solid #afafaf;
 }
