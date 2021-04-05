@@ -94,3 +94,38 @@ section ul {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
+
+section ul li {
+  background-color: #ccc;
+  border: 2px solid #afafaf;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "top" "middle" "bottom";
+}
+
+section h3 {
+  grid-area: bottom;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: center;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, .1)
+}
+
+section li > img {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+section div {
+  grid-area: top;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+section div img {
+  width: 1em;
+  height: 1em;
+  margin-right: .5em;
+}
