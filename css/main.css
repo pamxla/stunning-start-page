@@ -22,3 +22,9 @@ header {
   grid-template-areas: "left center right" ". center .";
   margin-bottom: 1.5rem;
 }
+
+header > h1 {
+  grid-area: center;
+  margin: 0;
+  z-index: 0;
+}
