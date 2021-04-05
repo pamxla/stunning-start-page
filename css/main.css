@@ -46,6 +46,18 @@ nav ul {
 }
 
 nav a {
-  border: 2px solid white;
+  border: 2px solid #960062;
+  background-color: ##bd027d;
   padding: .5em .8em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.125rem;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-transform: uppercase;
+  color: #eccee2;
+}
+
+nav a:hover {
+  background-color: #960062;
 }
