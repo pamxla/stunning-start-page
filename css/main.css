@@ -51,7 +51,7 @@ nav ul {
 
 nav a {
   border: 2px solid #960062;
-  background-color: ##bd027d;
+  background-color: #bd027d;
   padding: .5em .8em;
   border-radius: 6px;
   text-decoration: none;
@@ -109,7 +109,7 @@ section h3 {
   font-family: "PT Sans Narrow", sans-serif;
   text-align: center;
   z-index: 1;
-  background-color: rgba(0, 0, 0, .1)
+  background-color: rgba(0, 0, 0, .1);
 }
 
 section li > img {
@@ -145,7 +145,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  font-size: 0.875rem;
+  font-size: .875rem;
   align-items: center;
 }
 
