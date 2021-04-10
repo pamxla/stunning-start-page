@@ -144,4 +144,11 @@ div strong {
 footer {
   display: flex;
   justify-content: space-between;
+  padding: 1rem;
+  font-size: 0.875rem;
+  align-items: center;
+}
+
+footer a {
+  color: #000;
 }
